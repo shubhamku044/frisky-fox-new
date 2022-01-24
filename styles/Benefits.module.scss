@@ -1,0 +1,20 @@
+.circular_blur_1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30rem;
+	height: 30rem;
+	background-color: rgba(2, 54, 54, 0.438);
+	z-index: -10000;
+	filter: blur(160px);
+}
+.circular_blur_2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 28rem;
+	height: 25rem;
+	background-color: #59055570;
+	z-index: -10000;
+	filter: blur(220px);
+}
